@@ -1,0 +1,18 @@
+[project]
+name = "myapp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi>=0.121.2",
+    "google-generativeai>=0.8.5",
+    "joblib>=1.5.2",
+    "numpy>=2.0.2",
+    "pandas>=2.3.3",
+    "pydantic>=2.12.4",
+    "scikit-learn>=1.6.1",
+    "tqdm>=4.67.1",
+    "uvicorn>=0.38.0",
+    "xgboost>=2.1.4",
+]
